@@ -1,0 +1,46 @@
+/*  General rule in CSS
+selector {
+    property:value;
+    another_property:value;
+}*/
+
+/* change the style by using a tag*/
+h1 {
+    color: blue;
+}
+
+/*p {
+    color: forestgreen;
+}*/
+
+/* change the style by using an attribute
+<element id="rating"> */
+#rating{
+    color: forestgreen;
+}
+
+div{
+    text-align: center;
+}
+/* change the style by using an attribute
+<element class="placeholder"> */
+.placeholder{
+    background-color: red;
+    max-width: 300px;
+}
+
+.placeholder:hover{
+    box-shadow: 3px 3px 6px;
+    background-color: ivory;
+}
+
+* {
+    background-color: azure;
+}
+
+#logo{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    filter: brightness();
+}

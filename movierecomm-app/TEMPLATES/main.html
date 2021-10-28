@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<lang="en", dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{title}}</title>
+  <!-- base styling from  https://cdn.jsdelivr.net/ -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- styling from our css file -->
+  <link href="../static/signin.css" rel="stylesheet">
+</head>
+
+
+<body>
+  <div>
+  <!-- tag added h1 p div -->
+  <h1>A page for a random movie recommender function</h1>
+
+  <br>
+
+  <iframe src="https://giphy.com/embed/rHR8qP1mC5V3G" width="480" height="410" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/star-wars-han-solo-rHR8qP1mC5V3G">via GIPHY</a></p>
+
+  <br>
+
+  <!-- <a href="/recommendations">Get recommendations</a> -->
+
+  <form action="/recommendations">
+    Please write a rating</br>
+    <!-- This is a comment -->
+    '71 (2014)
+    <input class="form-signin" type="text" name="'71 (2014)" placeholder="0-5"><br>
+    'Hellboy': The Seeds of Creation (2004)
+    <input class="form-signin" type="text" name="'Hellboy': The Seeds of Creation (2004)" placeholder="0-5"><br>
+    'Round Midnight (1986)
+    <input class="form-signin" type="text" name="'Round Midnight (1986)" placeholder="0-5"><br>
+    'Salem's Lot (2004)
+    <input class="form-signin" type="text" name="'Salem's Lot (2004)" placeholder="0-5"><br>
+    'Til There Was You (1997)
+    <input class="form-signin" type="text" name="'Til There Was You (1997)" placeholder="0-5"><br>
+    
+  <input type="submit">
+
+  <h2 style="color: green;">Prepare yourself to get surprised!</h2>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

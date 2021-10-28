@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<lang="en", dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{title}}</title>
+</head>
+
+<body>
+
+  <h1> Here are your top 5 recommendations:</h1>
+
+  <p>
+    {% for m in recommendations %}
+      <li>{{m}}</li>
+    {% endfor %} 
+    
+    <!-- <li>{{recommendations}}</li> -->
+
+    <br>
+    <iframe src="https://giphy.com/embed/d2Z9QYzA2aidiWn6" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/snl-thumbs-up-awesome-d2Z9QYzA2aidiWn6">via GIPHY</a></p>
+
+    <a href="/">Go back to main page</a>
+    <h1 style="color: green;">Amazing right?</h1>
+
+  </p>
+
+</body>
+
+</html>

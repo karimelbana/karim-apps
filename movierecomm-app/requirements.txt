@@ -1,0 +1,9 @@
+Flask
+gunicorn
+numpy
+pandas
+random
+sklearn.metrics.pairwise
+sklearn.impute
+sklearn.decomposition
+pickle
